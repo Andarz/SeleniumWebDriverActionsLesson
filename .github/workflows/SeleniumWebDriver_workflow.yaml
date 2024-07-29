@@ -24,10 +24,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      - name: Change permissions for selenium-manager
-        run: chmod +x /home/runner/work/SeleniumIDEGitHub_290724/SeleniumIDEGitHub_290724/SeleniumIDE/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
-
-
       - name: Install dependencies
         run: dotnet restore
 
